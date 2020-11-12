@@ -1,0 +1,149 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 18px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	
+}
+.nav{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 4rem;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a{
+	color: white;
+	text-decoration: none
+}
+
+a:hover{
+	color: goldenrod;
+}
+
+ul li{
+	display: inline;
+	padding: 0 20px;
+}
+
+.articolo-1{
+	margin-top: 4rem;
+	background-color: yellow;
+	height: 20rem;
+	}
+
+.logo80ks{
+	margin-top: 4px;
+}
+
+.attivo{
+	color: goldenrod;
+	font-weight: 800;
+}
+
+.spettacolo-1{
+	margin-top: 8rem;
+	background-color: red;
+	height: 20rem;
+	}
+
+#submenu {
+	position:fixed;
+	margin-top: -4rem;
+	background-color: darkgray;
+	height: 4rem;
+	width: 100%;
+}
+
+.submenuNav {
+	display: flex;
+	justify-content: center;
+}
+.submenuItem{
+	text-align: center;
+	padding: 0 20px;
+	margin-top: 7px;
+}
+
+
+.submenuNav a {
+	color: black;
+}
+
+
+
+
+
+@media screen and (max-width: 767px){
+
+	.nav-list-larger{
+		display: none;
+	}
+
+	.wrapper{
+	max-height: 4.6rem;
+	display: flex;
+	overflow-x: auto;
+	justify-content: flex-start;
+}
+
+	.wrapper::-webkit-scrollbar{
+	width: 0px;
+}
+	.wrapper .wrapperItem{
+	min-width: 85px;
+}
+
+	.header .container .menu-icon{
+	border: 1px solid red;
+	padding: 20px 20px;
+	text-align: right;
+}
+
+.container .menu-icon .nav-icon{
+	background-color: aqua;
+	display: block;
+	height: 2px;
+	width: 18px;
+	position: relative;
+	transition: background .2s ease-out;
+}
+
+.container .menu-icon .nav-icon::before{
+	background-color: aqua;
+	content:"";
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transition: all .2 ease-out;
+	top: 5px;
+}
+
+.container .menu-icon .nav-icon::after{
+	background-color: aqua;
+	content:"";
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transition: all .2 ease-out;
+	top: -5px;
+}
+
+	.container .menu-btn{
+		display: none;
+	}
+
+
+
+}

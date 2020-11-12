@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+		font-size: 18px;
+		font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	
+}
+
+.nav-container{
+    position: fixed;
+    top: 0;
+    background: black;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+	z-index: 100;
+}
+
+.menu-web{
+    display: flex;
+    padding: 0 10px;
+}
+
+.logo-bar{
+    height: 4rem;
+}
+
+.dropdown-list a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 4rem;
+    padding: 0 20px;
+    color: white;
+}
+
+.dropdown-list a:hover {
+    color: goldenrod;
+}
+
+.buttonX {
+    display: none;
+}
+
+.logo80ks {
+    margin-top: 6px;
+}
+
+.articolo-1{
+	margin-top: 4rem;
+	background-color: yellow;
+	height: 20rem;
+    }
+
+.attivo {
+	color: goldenrod !important;
+	font-weight: 800;
+}
+
+.spettacolo-1{
+	margin-top: 8rem;
+	background-color: red;
+	height: 20rem;
+	}
+
+#submenu {
+	position:fixed;
+	margin-top: -4rem;
+	background-color: darkgray;
+	height: 4rem;
+	width: 100%;
+}
+
+.submenuNav {
+	display: flex;
+	justify-content: center;
+}
+.submenuItem{
+	text-align: center;
+	padding: 0 20px;
+	margin-top: 7px;
+}
+
+
+.submenuNav a {
+	color: black;
+}
+
+@media only screen and (min-width: 650px){
+    .hamburger {
+        display: none;
+    }
+    
+    .hamburger-end {
+        display: none;
+    }
+    .nav-container{
+        justify-content: center;
+    }
+
+}
+
+	.wrapper a{
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 649px){
+
+    .hamburger-end{
+     visibility: hidden;
+
+    }
+
+    .dropdown{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-y: hidden;
+    transition: 0.5s;
+    opacity: 0.9;
+}
+
+.dropdown-list{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.dropdown a{
+    padding-left: 8px;
+    line-height: 3rem;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.dropdown a:hover, .dropdown a:focus {
+    color: goldenrod;
+}
+
+.hamburger {
+    color: white;
+    margin-left: 10px;
+    line-height: 4rem;
+    font-size: 25px;
+    cursor: pointer;
+}
+    
+    
+.dropdown .buttonX {
+    line-height: 4rem;
+    font-size: 30px;
+    color: white;
+}
+
+.wrapper{
+	max-height: 4.6rem;
+	display: flex;
+	overflow-x: auto;
+	justify-content: flex-start;
+}
+
+	.wrapper::-webkit-scrollbar{
+	width: 0px;
+}
+	.wrapper .wrapperItem{
+	min-width: 85px;
+}
+
+}
