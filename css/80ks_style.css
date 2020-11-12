@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+	box-sizing: border-box;
 }
 
 html {
@@ -84,16 +85,12 @@ html {
 	margin-top: 7px;
 }
 
-
 .submenuNav a {
 	color: black;
 }
 
-@media only screen and (min-width: 650px){
-    .hamburger {
-        display: none;
-    }
-    
+@media only screen and (min-width: 761px){
+      
     .hamburger-end {
         display: none;
     }
@@ -107,11 +104,11 @@ html {
 	text-decoration: none;
 }
 
-@media only screen and (max-width: 649px){
+@media only screen and (max-width: 760px){
+	
 
     .hamburger-end{
-     visibility: hidden;
-
+		display: flex;
     }
 
     .dropdown{
@@ -154,6 +151,7 @@ html {
     line-height: 4rem;
     font-size: 25px;
     cursor: pointer;
+	
 }
     
     
