@@ -39,7 +39,7 @@ html {
 }
 
 .dropdown-list a:hover {
-    color: goldenrod;
+    color: #8F8149;
 }
 
 .buttonX {
@@ -57,8 +57,7 @@ html {
     }
 
 .attivo {
-	color: goldenrod !important;
-	font-weight: 800;
+	color: #8F8149 !important;
 }
 
 .spettacolo-1{
@@ -70,7 +69,7 @@ html {
 #submenu {
 	position:fixed;
 	margin-top: -4rem;
-	background-color: darkgray;
+	background-color: lightgray;
 	height: 4rem;
 	width: 100%;
 }
@@ -146,7 +145,7 @@ html {
 }
 
 .dropdown a:hover, .dropdown a:focus {
-    color: goldenrod;
+    color: #8F8149;
 }
 
 .hamburger {
