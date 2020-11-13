@@ -27,8 +27,8 @@ html {
 }
 
 .menu-web{
-    display: flex;
-    padding: 0 10px;
+		display: inline-flex;
+		padding: 0 10px;
 }
 
 .logo-bar{
@@ -42,6 +42,7 @@ html {
     line-height: 4rem;
     padding: 0 20px;
     color: white;
+	transition: all .3s ease;
 }
 
 .dropdown-list a:hover {
@@ -75,7 +76,7 @@ html {
 
 #submenu {
 	position:fixed;
-	margin-top: -4rem;
+	margin-top: 4rem;
 	background-color: lightgray;
 	height: 4rem;
 	width: 100%;
@@ -114,10 +115,10 @@ html {
         justify-content: center;
     }
 
-}
 
 	.wrapper a{
 	text-decoration: none;
+	}
 }
 
 @media only screen and (max-width: 760px){
