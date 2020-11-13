@@ -179,7 +179,7 @@ html {
 }
 
 .wrapper{
-	max-height: 4.6rem;
+	max-height: 4.8rem;
 	display: flex;
 	overflow-x: auto;
 	justify-content: flex-start;
@@ -189,10 +189,13 @@ html {
 	width: 0px;
 }
 	.wrapper .wrapperItem{
-	min-width: 85px;
+	min-width: 125px;
 }
 	.submenuNav a, p {
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
+	.submenuItem{
+	padding: 0 10px;
 
+	}
 }
