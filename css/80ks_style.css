@@ -23,7 +23,7 @@ html {
     height: 4rem;
     display: flex;
     justify-content: space-between;
-	z-index: 100;
+	z-index: 1400;
 }
 
 .menu-web{
@@ -68,10 +68,17 @@ html {
 	color: #8F8149 !important;
 }
 
-.spettacolo-1{
-	margin-top: 8rem;
-	background-color: red;
-	height: 20rem;
+.divisore{
+	width: 100%;
+	height: 8rem;
+}
+
+.spettacolo-nero{
+	background-color: black;
+	}
+
+.spettacolo-bianco{
+	background-color: white;
 	}
 
 #submenu {
@@ -80,6 +87,7 @@ html {
 	background-color: lightgray;
 	height: 4rem;
 	width: 100%;
+	z-index: 1;
 }
 
 .submenuNav {
@@ -98,6 +106,10 @@ html {
 	font-size: 1rem;
 }
 
+.submenuNav a, p:hover {
+	color: #8F8149;
+}
+
 .articolo-1 .foto-tornando{
 	width: 100%;
 	height: 20rem;
@@ -107,6 +119,80 @@ html {
 	margin-top: 5px;
 }
 	
+
+.spettacolo-card{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 0.5rem;
+}
+
+.spettacolo-img{
+	width: 45%;
+	height: 20rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 50px;	
+	
+}
+
+.spettacolo-img-sx{
+	width: 45%;
+	height: 20rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 50px;	
+	
+}
+.shows_img{
+	width: 250px;
+	height: 250px;
+}
+
+.spettacolo-desc{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding-left: 10px;
+	color: white;
+
+}
+
+.spettacolo-desc-sx{
+	width: 55%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	padding-right: 10px;
+	color: black;
+	text-align: right;
+
+}
+
+.spettacolo-desc-sx h1, .spettacolo-desc h1{
+	font-size: 50px;
+}
+
+.spettacolo-desc-sx h3, .spettacolo-desc h3{
+	font-size: 25px;
+}
+
+
+
+.button {
+    background-color: #1108E0;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+	margin-top: 20px;
+}
 
 @media only screen and (min-width: 761px){
       
@@ -138,6 +224,7 @@ html {
     overflow-y: hidden;
     transition: 0.5s;
     opacity: 0.9;
+	z-index: 2000;
 }
 
 .dropdown-list{
@@ -198,4 +285,54 @@ html {
 	padding: 0 10px;
 
 	}
+	
+	.spettacolo-card{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	}
+	
+	.spettacolo-img-sx, .spettacolo-img{
+	width: 100%;
+	height: 14rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	
+}
+.shows_img{
+	width: 200px;
+	height: 200px;
+}
+
+.spettacolo-desc-sx, .spettacolo-desc{
+	align-items: center;
+	justify-content: center;
+	padding: 0px;
+
+}
+
+.spettacolo-desc-sx h1, .spettacolo-desc h1{
+	font-size: 40px;
+}
+
+.spettacolo-desc-sx h3, .spettacolo-desc h3{
+	font-size: 22px;
+}
+
+
+
+.button {
+	margin-bottom: 20px;
+}
+
+.spettacolo-card-reverse{
+	flex-direction: column-reverse;	
+	}
+	
+	
+	
 }
