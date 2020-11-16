@@ -121,10 +121,9 @@ html {
 	
 
 .spettacolo-card{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0.5rem;
 }
 
 .spettacolo-img{
@@ -291,6 +290,7 @@ html {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 0;
 	
 	}
 	
@@ -319,12 +319,14 @@ html {
 	width: 500px;
 	text-align: center;
 	font-size: 40px;
+	padding: 0;
 }
 
 .spettacolo-desc-sx h3, .spettacolo-desc h3{
 	width: 500px;
 	text-align: center;
 	font-size: 22px;
+	padding: 0;
 }
 
 
@@ -337,8 +339,5 @@ html {
 	flex-direction: column-reverse;	
 	}
 	
-	.spettacolo-bianco, .spettacolo-nero{
-		width: auto;
-	}
 	
 }
