@@ -316,7 +316,7 @@ html {
 }
 
 .spettacolo-desc-sx h1, .spettacolo-desc h1{
-	width: 100%;
+	width: 500px;
 	text-align: center;
 	font-size: 40px;
 }
@@ -337,6 +337,8 @@ html {
 	flex-direction: column-reverse;	
 	}
 	
-	
+	.spettacolo-bianco, .spettacolo-nero{
+		width: auto;
+	}
 	
 }
