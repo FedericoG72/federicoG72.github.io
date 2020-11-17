@@ -12,6 +12,7 @@ html {
 
 .container{
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 }
 
@@ -275,7 +276,7 @@ html {
 	width: 0px;
 }
 	.wrapper .wrapperItem{
-	max-width: 100%;
+	min-width: 120px;
 }
 	.submenuNav a, p {
 	font-size: 0.9rem;
