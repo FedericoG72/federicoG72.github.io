@@ -275,13 +275,13 @@ html {
 	width: 0px;
 }
 	.wrapper .wrapperItem{
-	min-width: 135px;
+	max-width: 100%;
 }
 	.submenuNav a, p {
 	font-size: 0.9rem;
 }
 	.submenuItem{
-	padding: 0 8px;
+	padding: 0 6px;
 
 	}
 	
