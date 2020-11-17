@@ -51,13 +51,6 @@ html {
     margin-top: 6px;
 }
 
-.articolo-1{
-	margin-top: 4rem;
-	background-color: yellow;
-	height: 100%;
-	
-    }
-
 .attivo {
 	color: #8F8149 !important;
 }
@@ -100,7 +93,7 @@ html {
 	font-size: 1rem;
 }
 
-.submenuNav a, p:hover {
+.submenuNav a p:hover {
 	color: #8F8149;
 }
 
@@ -185,6 +178,89 @@ html {
     font-size: 16px;
     cursor: pointer;
 	margin-top: 20px;
+}
+
+.spettacolo-solo {
+	width: 100%;
+	height: 60rem;
+	margin-top: 4rem;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.spettacolo-foto{
+    width: 100%;
+    padding-top: 2rem;
+	text-align: center;
+}
+
+.spettacolo-foto img{
+	width: 40%;
+}
+.spettacolo-testo{
+	margin-top: 1.7rem;
+	width: 80%;
+	
+}
+
+.spettacolo-testo p{
+	color: white;
+	text-align: justify;
+	font-size: 1.2rem;
+}
+
+
+#slider{
+	overflow: hidden;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+#slider figure img{
+	float: left;
+	width: 20%;
+}
+
+@keyframes slider{
+	0% {
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+#slider{
+	margin-top: 2rem;
+	width: 80%;
 }
 
 @media only screen and (min-width: 761px){
