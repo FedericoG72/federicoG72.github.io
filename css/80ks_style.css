@@ -281,14 +281,17 @@ html {
 	}
 	
 	.spettacolo-card, .spettacolo-card-reverse{
+	display: flex;
 	justify-content: center;
 	padding: 0;
 	
 	}
 	
 	.spettacolo-img-sx, .spettacolo-img{
+	width: 100%;
 	height: 14rem;
 	display: flex;
+	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
 	padding: 0;
