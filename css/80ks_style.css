@@ -278,6 +278,14 @@ html {
 	margin-top: 2rem;
 }
 
+.titoletto{
+	color: yellow;
+	text-align: center;
+	margin-top: 22px;
+	padding-bottom: 10px;
+	font-size: 1.5rem;
+}
+
 @media only screen and (min-width: 761px){
       
     .hamburger-end {
