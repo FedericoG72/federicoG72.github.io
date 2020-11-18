@@ -182,8 +182,8 @@ html {
 
 .spettacolo-solo {
 	width: 100%;
-	height: 60rem;
 	margin-top: 4rem;
+	padding-bottom: 2rem;
 	background-color: black;
 	display: flex;
 	flex-direction: column;
@@ -261,6 +261,21 @@ html {
 #slider{
 	margin-top: 2rem;
 	width: 80%;
+}
+
+.dance_foto{
+	margin-top: 1.5rem;
+	width: 100%;
+	text-align: center;
+	
+}
+.dance_foto img{
+	width: 80%;
+	
+}
+
+.dance32_video{
+	margin-top: 2rem;
 }
 
 @media only screen and (min-width: 761px){
