@@ -440,5 +440,12 @@ html {
 	flex-direction: column-reverse;	
 	}
 	
-	
+	.bottoni{
+		display: flex;
+		flex-direction: column;
+		margin-top: 0.5rem;
+	}
+	.bottoni button{
+		margin: 0.2rem 0;
+	}
 }
