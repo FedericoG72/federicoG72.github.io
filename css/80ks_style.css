@@ -286,6 +286,15 @@ html {
 	font-size: 1.5rem;
 }
 
+.bottoni{
+	text-align: center;
+}
+
+.bacheca{
+	margin-top: 1rem;
+	text-align: center;
+}
+
 @media only screen and (min-width: 761px){
       
     .hamburger-end {
@@ -295,7 +304,9 @@ html {
         justify-content: center;
     }
 
-
+	.btn-hidden{
+		display: none;
+	}
 	
 }
 
