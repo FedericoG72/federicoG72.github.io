@@ -9,7 +9,7 @@ function closeMenu() {
 }
 
 $(window).scroll(function() {
-  if ($(this).scrollTop() > 330) {
+  if ($(this).scrollTop() > 300) {
     $('.logo-bar').show();
   } else {
     $('.logo-bar').hide();

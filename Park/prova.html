@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -28,6 +28,19 @@
         .a {
             display: none;
         }
+        
+        .immagine img{
+            width: 30%;
+            background-color: aqua;
+        }
+        
+        @media screen and (max-width: 700px) {
+        .immagine img{
+            width: 30%;
+            background-color: yellow;
+        }
+}
+        
     </style>
 
 <div class="navbar">
@@ -39,6 +52,17 @@
 <p>Lorem ipsum dfa dsaòfdjòd adsfkjdòf Lorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòf
     Lorem ipsum dfa dsaòfdjòd adsfkjdòf Lorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòfLorem ipsum dfa dsaòfdjòd adsfkjdòf
     </p>
+    <div class="immagine" data-aos="fade-right">
+        <img src="/images/Logo80KS_R_OK.png">
+
+    
+    </div>
+    
+    
+    
+    
+    
+    
 <script>$(window).scroll(function() {
   if ($(this).scrollTop() > 20) {
     $('.a').show();
@@ -47,6 +71,12 @@
   }
 });
 </script>
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 400,
+        duration: 1000
+    });
+  </script>  
 </body>
 </html>

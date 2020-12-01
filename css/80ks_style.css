@@ -1,4 +1,21 @@
- .color img {
+.zoom img {
+       height: 300px;
+       width: 300px;
+       -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+       -ms-transition: all 1s ease;
+       transition: all 1s ease;
+ }
+ .zoom img:hover {
+       width: 400px;
+       height: 400px;
+ } 
+
+
+
+
+.color img {
        -webkit-filter: grayscale(100%);
        -webkit-transition: all 1s ease;
        -moz-transition: all 1s ease;
@@ -145,21 +162,23 @@ html {
 
 .spettacolo-img{
 	width: 45%;
-	height: 20rem;
+	height: 40rem;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	padding-right: 50px;	
+	padding-right: 50px;
+    overflow: hidden;
 	
 }
 
 .spettacolo-img-sx{
 	width: 45%;
-	height: 20rem;
+	height: 40rem;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	padding-left: 50px;	
+	padding-left: 50px;
+    overflow: hidden;
 	
 }
 .shows_img{
@@ -220,11 +239,13 @@ html {
 	align-items: center;
 	
 }
+.articolo-1 .logoindex img{
+    max-width:  25%;
+}
 
-
-
-
-
+.articolo-1 .logoindex {
+    text-align: center;
+}
 
 .spettacolo-foto{
     width: 100%;
@@ -397,7 +418,7 @@ html {
     color: white;
     margin-left: 10px;
     line-height: 2.5rem;
-    font-size: 25px;
+    font-size: 37px;
     cursor: pointer;
 	
 }
@@ -507,7 +528,22 @@ html {
     display: inline-block;
 }	*/
 	
-    .ingrandimento img{
-        width: 55%;
-    }
+.logoindex img {
+    min-width: 31%;
+}
+    .zoom img {
+       height: 200px;
+       width: 200px;
+       -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+       -ms-transition: all 1s ease;
+       transition: none;
+ }
+ .zoom img:hover {
+       width: 200px;
+       height: 200px;
+ } 
+    
+    
 }

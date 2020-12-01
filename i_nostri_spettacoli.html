@@ -10,6 +10,8 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 <style>
     .logo-bar{
@@ -74,7 +76,7 @@
 	</div>
 	
 </section>
-<section class="spettacolo-bianco">
+<section class="spettacolo-bianco" data-aos="fade-right">
 	<div class="spettacolo-card spettacolo-card-reverse">
 	<div class="spettacolo-desc-sx"><h1>Dance 3.2</h1>
 	<h3>La dance e la italo dance<br>degli anni 80 e dintorni</h3>
@@ -82,22 +84,33 @@
 	<div class="color spettacolo-img-sx"><img src="images/Dance_32.jpg" class="shows_img" alt="Dance32_logo"></div>
 	</div>
 </section>
-<section class="spettacolo-nero">
-	<div class="spettacolo-card"><div class="color spettacolo-img"><img src="images/Live_is_life.jpg" class="shows_img" alt="Festival_Review_logo"></div>
+<section class="spettacolo-nero" data-aos="fade-left">
+	<div class="spettacolo-card" ><div class="zoom spettacolo-img"><img src="images/Live_is_life.jpg" class="shows_img" alt="Festival_Review_logo"></div>
 	<div class="spettacolo-desc"><h1>Live is Life</h1>
 	<h3>Concerto spettacolo</h3>
 	<a href="live_is_life.html"><button class="button">Scopri di più</button></a></div>
 	</div>
 </section>
-<section class="spettacolo-bianco">
+<section class="spettacolo-bianco" data-aos="fade-right">
 	<div class="spettacolo-card spettacolo-card-reverse">
 	<div class="spettacolo-desc-sx"><h1>Music Hall</h1>
 	<h3>I grandi autori pop e pop rock</h3>
 	<a href="music_hall.html"><button class="button">Scopri di più</button></a></div>
-	<div class="color spettacolo-img-sx"><img src="images/Music_Hall.jpg" class="shows_img" alt="Dance32_logo"></div>
+	<div class="zoom spettacolo-img-sx"><img src="images/Music_Hall.jpg" class="shows_img" alt="Dance32_logo"></div>
 	</div>
 </section>	
 </div>
 <script src="js/80ks_script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration: 2000
+        
+    }
+    );
+  </script>
+    
+    
+    
 </body>
 </html>
