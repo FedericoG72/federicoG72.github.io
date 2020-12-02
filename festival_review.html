@@ -54,18 +54,53 @@
 <div class="spettacolo-solo">
 	<div class="spettacolo-foto"><img src="images/Festival.jpg" alt="Festival_Review_logo"/></div>
 	<div class="spettacolo-testo"><p>&Egrave; a oggi uno spettacolo unico nel suo genere, dove la canzone italiana, dagli anni 80 a oggi è l’assoluta protagonista. Dal divano di casa, tutti siamo soliti giocare a fare i critici, ad esprimere le nostre opinioni sui vari cantanti in gara e stilare le nostre classifiche. Noi di 80 Che Spettacolo siamo andati oltre e ci siamo immedesimati negli artisti stessi per riproporre i brani che più ci hanno colpito di questi ultimi 40 anni.</p></div>
-	<div id="slider">
-	<figure>
-	<img src="images/Festival_foto1.jpg" alt="Festival_carousel"/>
-	<img src="images/Festival_foto2.jpg" alt="Festival_carousel"/>
-	<img src="images/Festival_foto3.jpg" alt="Festival_carousel"/>
-	<img src="images/Festival_foto4.jpg" alt="Festival_carousel"/>
-	<img src="images/Festival_foto1.jpg" alt="Festival_carousel"/>
-	</figure>
-	</div>
+    
+<!-- image slider start-->
+	<div class="slider">
+     <div class="slides">
+<!-- radio button start-->
+    <input type="radio" name="radio-btn" id="radio1"> <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4"> 
+    <!-- radio button end-->
+    <!-- slide images start-->
+    <div class="slide first">
+    <img src="images/Festival_foto1.jpg" alt="Festival_carousel"/>      
+    </div>
+    <div class="slide">
+    <img src="images/Festival_foto2.jpg" alt="Festival_carousel"/>
+    </div>
+    <div class="slide">
+    <img src="images/Festival_foto3.jpg" alt="Festival_carousel"/>
+    </div>
+    <div class="slide">
+    <img src="images/Festival_foto4.jpg" alt="Festival_carousel"/>
+    </div>
+    <!-- slide images end-->
+    <!-- automatic navigation start-->
+    <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+         </div>    
+          <!-- automatic navigation end-->
+    </div>
+        <!-- manual navigation start-->
+        <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+        </div> 
+        <!-- manual navigation end-->
+    </div>
+    <!-- image slider end-->
 
 </div>
 	
 <script src="js/80ks_script.js"></script>
+
+
 </body>
 </html>
