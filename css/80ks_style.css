@@ -329,13 +329,11 @@ html {
 ------VECCHIO------
 */
 .slider {
-    width: 100%;
+    width: 80%;
     height: 100%;
     border-radius: 20px;
     overflow: hidden;
-    text-align: center;
     margin-top: 2rem;
-    align-items: flex-end;
 }
 
 .slides{
@@ -355,12 +353,12 @@ html {
 }
 
 .slide img{
-    width: 80%
+    width: 100%;
 }
 
 .navigation-manual{
     position: absolute;
-    width: 100%;
+    width: 80%;
     margin-top: -2.7%;
     display: flex;
     justify-content: center;
@@ -399,7 +397,7 @@ html {
 .navigation-auto{
     position: absolute;
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: center;
     margin-top: 51%;
 }
