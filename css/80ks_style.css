@@ -220,6 +220,10 @@ html {
 
 
 
+.wa-btn{
+    background-color: green !important;
+}
+
 .button {
     background-color: #1108E0;
     border: none;
