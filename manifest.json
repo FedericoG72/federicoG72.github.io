@@ -3,8 +3,8 @@
 "short_name": "80KS",
 "start_url": "/index.html",
 "display": "standalone",
-"background-color": "#FFE9D2",
-"theme-color": "#FFE1C4",
+"background_color": "#000000",
+"theme_color": "#4285f4",
 "orientation": "portrait-primary",
 "icons": [
     {
