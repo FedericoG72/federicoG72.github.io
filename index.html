@@ -11,10 +11,21 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
  <link rel="manifest" href="/manifest.json">
+ <meta name="theme-color" content="#8F8149">
 <!-- ios support -->
-<link rel="apple-touch-icon" href="/icon/icon-96x96.png">
+<link rel="apple-touch-icon" href="/i#8F8149icon-96x96.png">
+<link rel="apple-touch-icon" href="/icon/icon-144x144.png">
 <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="80 Che Spettacolo">
 
+
+<style>
+     .logo-bar{
+    display: none;
+}
+        
+</style>
 </head>
 <body>
 <div class="container">
@@ -26,7 +37,7 @@
             <div class="menu-web">  
                 <div class="logo-bar">
                     <a href="index.html">
-                        <img src="images/80ks_icona.png" class="logo80ks" height="33px" alt="logo80ks">
+                        <img src="images/80ks_icona.png" class="logo80ks" height="33px" alt="icona80ks">
                     </a>      
            
                 </div>
@@ -70,8 +81,20 @@
 
 </div>
 </section>
+
 <script src="js/app.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
 <script src="js/80ks_script.js"></script>
+<script>
+  $(window).scroll(function() {
+  if ($(this).scrollTop() > 300) {
+    $('.logo-bar').show();
+  } else {
+    $('.logo-bar').hide();
+  }
+});
+  
+    
+    </script>
 </body>
 </html>
