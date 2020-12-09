@@ -1,35 +1,13 @@
+.bottone-a2hs {
+display: flex;
+justify-content: center;
+}
 
 .add-button {
-  position: absolute;
-  top: 1px;
-  left: 1px;
-}
-
-.fallback h2{
-	color: #8F8149;
-	font-size: 2rem;
-}
-
-.fallback p{
-	font-size: 1rem;
-	color: #8F8419;
-}
-
-.articolo-1 .fallback {
-	text-align: center;
-}
-
-.fallback .fallback-btn{
-    background-color: #8F8149;
-    border: none;
-    color: white;
-    border-radius: 25px;
-    padding: 10px 25px;
-    font-size: 16px;
-	cursor: pointer;
-	margin-top: 10px;
+	padding: 5px;
 
 }
+
 .zoom img {
        height: 300px;
        width: 300px;
