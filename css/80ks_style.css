@@ -1,4 +1,10 @@
 
+.add-button {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+
 .fallback h2{
 	color: #8F8149;
 	font-size: 2rem;
