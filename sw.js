@@ -6,9 +6,11 @@ const assets = [
   '/js/app.js',
   '/css/80ks_style.css',
   '/img/dish.png',
+  'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js',
   'https://fonts.gstatic.com',
   'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap',
   '/fallback.html',
+  '/js/80ks_script.js',
   '/dance32.html',
   '/festival_review.html',
   '/i_nostri_spettacoli.html',
@@ -20,7 +22,7 @@ const assets = [
   '/images/Festival.jpg',
   '/images/Live_is_life.jpg',
   '/images/Dance_32.jpg',
-  '/images/Music_Hall.jpg'
+  '/images/Music_Hall.jpg',
 ];
 
 // cache size limit function
