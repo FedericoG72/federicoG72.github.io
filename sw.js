@@ -6,7 +6,7 @@ self.addEventListener('install', evt => {
 // activate event
 self.addEventListener('activate', evt => {
   console.log('Service worker attivato');
-//    return self.clients.claim();
+    return self.clients.claim();
 });
 
 // fetch event
