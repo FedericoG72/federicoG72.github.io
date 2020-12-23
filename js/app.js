@@ -5,16 +5,31 @@ if('serviceWorker' in navigator){
 }
 
 function finestraConfermaNotify(){
-    new Notification('Hai abilitato le notifiche di 80KS');
-}
+    if ('serviceWorker' in navigator){
+        var options = {
+            body: 'Subscribed succesfully',
+            icon: '/icon/icon-96x96.png',
+            image: '/images/dancing.png',
+            dir: 'ltr',
+            lang: 'en-US',
+            vibrate: [100, 50, 200],
+            badge: '/icon/icon-96x96.png'
+        };
 
+    navigator.serviceWorker.ready
+    .then(function(swreg){
+        swreg.showNotification('Subscribed succesfully', options);
+    });
+    }
+}
 
 function richiediNotifica(){
     Notification.requestPermission(function(result){
         console.log('Scelta utente', result);
         if (result !== 'permesso'){
             console.log('Notifiche non permesse');
-        } else {finestraConfermaNotify();
+        } else {
+            finestraConfermaNotify();
         }
     });
 }
