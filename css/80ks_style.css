@@ -1,3 +1,7 @@
+.enable-notification{
+	display: none;
+}
+
 .bottone-a2hs {
 display: flex;
 justify-content: center;
