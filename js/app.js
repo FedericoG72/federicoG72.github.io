@@ -12,7 +12,7 @@ function richiediNotifica(){
         } else {
             
         }
-    })
+    });
 }
 
 var notificationButton = document.querySelectorAll(".enable-notification");
