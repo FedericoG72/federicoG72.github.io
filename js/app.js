@@ -4,13 +4,17 @@ if('serviceWorker' in navigator){
     .catch((err) => console.log('Service worker non registrato', err));
 }
 
+function finestraConfermaNotify(){
+    new Notification('Hai abilitato le notifiche di 80KS');
+}
+
+
 function richiediNotifica(){
     Notification.requestPermission(function(result){
         console.log('Scelta utente', result);
         if (result !== 'permesso'){
             console.log('Notifiche non permesse');
-        } else {
-            
+        } else {finestraConfermaNotify();
         }
     });
 }
