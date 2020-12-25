@@ -13,7 +13,11 @@ function finestraConfermaNotify(){
             dir: 'ltr',
             lang: 'en-US',
             vibrate: [100, 50, 200],
-            badge: '/icon/icon-96x96.png'
+            badge: '/icon/icon-96x96.png',
+            actions: [
+                {action: 'confirm', title: 'Okay', icon:'/icon/icon-96x96.png'},
+                {action: 'cancel', title: 'Cancel', icon: '/icon/icon-96x96.png'}
+            ]
         };
 
     navigator.serviceWorker.ready
