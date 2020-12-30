@@ -100,7 +100,7 @@ html {
 }
 
 .dropdown-list a:hover {
-    color: #8F8149;
+    color: #91834b;
 }
 
 .buttonX {
@@ -112,7 +112,7 @@ html {
 }
 
 .attivo {
-	color: #8F8149 !important;
+	color: #91834b !important;
 }
 
 .divisore{
@@ -158,7 +158,7 @@ html {
 }
 
 .submenuNav a p:hover {
-	color: #8F8149;
+	color: #91834b;
 }
 
 .articolo-1 {
@@ -551,7 +551,7 @@ html {
 }
 
 .dropdown a:hover, .dropdown a:focus {
-    color: #8F8149;
+    color: #91834b;
 }
 
 .hamburger {
