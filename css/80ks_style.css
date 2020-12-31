@@ -100,7 +100,7 @@ html {
 }
 
 .dropdown-list a:hover {
-    color: #91834b;
+    color:#90824a;
 }
 
 .buttonX {
@@ -112,7 +112,7 @@ html {
 }
 
 .attivo {
-	color: #91834b !important;
+	color:#90824a !important;
 }
 
 .divisore{
@@ -158,7 +158,7 @@ html {
 }
 
 .submenuNav a p:hover {
-	color: #91834b;
+	color:#90824a;
 }
 
 .articolo-1 {
@@ -514,7 +514,6 @@ html {
 
 @media only screen and (max-width: 760px){
 	
-
     .hamburger-end{
 		visibility: hidden;
     }
@@ -551,7 +550,7 @@ html {
 }
 
 .dropdown a:hover, .dropdown a:focus {
-    color: #91834b;
+    color:#90824a;
 }
 
 .hamburger {
@@ -681,6 +680,9 @@ html {
         margin-top: 2px;
 }
 
+.logo-bar{
+	width: 55px;	
+}
     
 }
 
