@@ -1,2 +1,0 @@
-# LoginPage
-Sample login page
